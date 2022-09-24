@@ -1,0 +1,1 @@
+​Hi, I'm ZCX, an amateur TA, TD, working in an animation studio.

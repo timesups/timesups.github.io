@@ -25,7 +25,7 @@ published: true
 
 ### 创建存储库
 &ensp;&ensp;要使用GitHub Pages首先需要一个存储库
-![]({{site.baseurl}}/img/post/2022-09-24-how-to-create-a-blog/pic_1.jpg)
+![]({{site.baseurl}}/img/Post/2022-09-24-How-to-create-a-blog/pic_1.jpg)
 &ensp;&ensp;创建存储库基本没有太多可以设置的,需要注意的是存储库的命名,因为是用户站点,所以存储库的名称必须是"<你的用户名>.github.io",而且必须保持小写,如上图,我的用户名是timesups,所以我的网站域名就是timesups.github.io,用作网站的存储库可以设置为私有或者公开,但设置私有后,其他用户仍然可以方位这个私有库所托管的网站,所以在如果有较隐私的文件不要放在这个托管库中.
 ### 挑选模板
 &ensp;&ensp;我这里直接Copy了[黄玄](https://github.com/Huxpro/huxpro.github.io)大佬的库,当然你也可以自己挑选一些模板,但模板大多需要相对复杂的设置,而且对于Jekyll--这个一会再介绍--版本的支持也不尽相同,为了更快速得到一个相对能用的网站,我就直接在黄玄大佬的网站的基础上做了些更改.
@@ -36,7 +36,7 @@ published: true
 &ensp;&ensp;也就是说Github使用Jekyll将我们上传的文件构建成静态网页,所以同样的我们在本地也可以使用Jekyll构建并预览我们的网站,待满意后在上传到库中,毕竟Github每小时只能构建10次网站,这显然不适合前期网站的修改.
 #### Jekyll环境搭建
 &ensp;&ensp;因为Jekyll是基于Ruby语言的,所以首先我们需要搭建Ruby环境,访问[ruby](https://rubyinstaller.org/downloads/)的官网,下载并安装ruby,注意你的系统是64还是32位的.
-![]({{site.baseurl}}/img/post/2022-09-24-how-to-create-a-blog/pic_2.jpg)
+![]({{site.baseurl}}/img/Post/2022-09-24-How-to-create-a-blog/pic_2.jpg)
 
 &ensp;&ensp;安装一路下一步即可,安装完成后按下Win+r,输入cmd点击回车,打开命令提示符.输入下面的命令开始安装Jekyll
 > gem install jekyll
@@ -53,7 +53,7 @@ published: true
 ### 为你的博客添加评论系统
 &ensp;&ensp;模板默认支持Disqus和网易云跟帖,但博主觉得设置麻烦且并不好看,于是同样参考了冯乐乐的博客使用[livere](https://livere.com/)作为评论系统,添加起来也很方便,首先注册并获取用户ID,下图红色部分.
 
-![]({{site.baseurl}}/img/post/2022-09-24-how-to-create-a-blog/pic_7.jpg)
+![]({{site.baseurl}}/img/Post/2022-09-24-How-to-create-a-blog/pic_7.jpg)
 
 &ensp;&ensp;然后在_config.yml中添加变量livere_uid:,并在后面输入刚才的用户ID,注意!一定要在冒号和ID之间输入一个空格,不然无法构建成功.
 
@@ -93,22 +93,22 @@ published: true
 
 &ensp;&ensp;在对网站满意后,就可以将其上传到服务器的存储库中了,上传完成后需要在服务端开启Github Page功能,首先在存储库的主页找到Settings,在左侧找到Pages,在其中找到Branch,点击None将其设置为master,然后点击Save
 
-![]({{site.baseurl}}/img/post/2022-09-24-how-to-create-a-blog/pic_3.jpg)
+![]({{site.baseurl}}/img/Post/2022-09-24-How-to-create-a-blog/pic_3.jpg)
 
 &ensp;&ensp;然后在上方找到Actions并点击,可以看到后台正在构建我们当前的静态网页
 
-![]({{site.baseurl}}/img/post/2022-09-24-how-to-create-a-blog/pic_4.jpg)
+![]({{site.baseurl}}/img/Post/2022-09-24-How-to-create-a-blog/pic_4.jpg)
 
 &ensp;&ensp;构建完成后就可以使用存储库的名称作为地址访问我们的网站啦!
 
 ### 使用[prose](https://prose.io/)写你的第一篇博客
 &ensp;&ensp;[prose](https://prose.io/)是一个可以在线编辑Github的网站,支持MarkDown的语法(不知道MarkDown的可以百度一下MarkDown语法),打开prose并关联github找到你用于存放网站的库下的_post文件夹,并点击NEW FILE,就可以开始写博客了,需要注意的是,我们首先需要在右侧的菜单中找到Metadata并在其中加入一些属性
 
-![]({{site.baseurl}}/img/post/2022-09-24-how-to-create-a-blog/pic_5.jpg)
+![]({{site.baseurl}}/img/Post/2022-09-24-How-to-create-a-blog/pic_5.jpg)
 
 写完后,只需在右边的菜单中找到Change to submit 然后点击SUBMIT CHANGE REQUEST即可.
 
-![]({{site.baseurl}}/img/post/2022-09-24-how-to-create-a-blog/pic_6.jpg)
+![]({{site.baseurl}}/img/Post/2022-09-24-How-to-create-a-blog/pic_6.jpg)
 
 保存完成后,github会自动构建静态网页,一段时间后就可以在我们的网站上看到文章了.
 

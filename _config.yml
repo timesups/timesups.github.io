@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username: huxpro
+weibo_username: T3C2E
 #zhihu_username: huxpro
 github_username: timesups
 #twitter_username: #
@@ -56,16 +56,19 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
+# livere Settings
+livere_uid: MTAyMC81NzMzMS8zMzc5NQ==
+
 
 # Disqus settings
-disqus_username: timesups
+#disqus_username: timesups
 
 # Netease settings
 netease_comment: false
 
 # Analytics settings
 # Baidu Analytics
-# ba_track_id: [your track id]
+#ba_track_id: 8730c9cbc89eb27e93758bc699c8ed5a
 
 # Google Analytics
 #ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx

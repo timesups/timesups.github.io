@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: T3C2E
+#weibo_username: T3C2E
 #zhihu_username: huxpro
 github_username: timesups
 #twitter_username: #

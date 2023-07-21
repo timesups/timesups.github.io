@@ -73,6 +73,9 @@ netease_comment: false
 # Google Analytics
 #ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
 #ga_domain: huangxuan.me
+# Google  verification
+verificationContent = eDQ2sOr8kavvId05vpmCyqfT4I4boA35j2UuXe5thDc
+
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.

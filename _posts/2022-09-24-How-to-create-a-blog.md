@@ -112,6 +112,8 @@ published: true
 
 保存完成后,github会自动构建静态网页,一段时间后就可以在我们的网站上看到文章了.
 
+### 谢谢观看!
+![]({{site.baseurl}}/img/GoodMorning.jpg)
 
 ### 参考
 [jekyll本地环境搭建(Windows)](https://www.likecs.com/show-947640.html)
@@ -127,3 +129,5 @@ published: true
 [官网的Github Pages教程](https://docs.github.com/cn/pages/getting-started-with-github-pages/about-github-pages)
 
 [关于新的ruby源替换（最新）](https://bbs.pinggu.org/jg/kaoyankaobo_kaoyan_9182823_1.html)
+
+

@@ -53,3 +53,6 @@ published: true
 ![]({{site.baseurl}}/img/Post/2022-05-17-Translucency-object-crush/Pasted_image_20230517002510.jpg)
 
 ### 谢谢观看!
+
+
+![]({{site.baseurl}}/img/GoodMorning.jpg)

@@ -35,6 +35,11 @@ return float(frac(sin(dot(coord,vt))*(43758.5453123+time)));
 &ensp;&ensp;碎块与坐标的融合也很简单,只需要相加或者相减即可,在下图中我还加了一些RGBSplit的效果以及使用不同的随机色块采样贴图不同的通道,使色块在实际表现中呈现色彩变化以增强表现.
 ![]({{site.baseurl}}/img/Post/2022-09-27-UE-Glitch-Effect/PIC_6.jpg)
 
+
+### 谢谢观看!
+![]({{site.baseurl}}/img/GoodMorning.jpg)
+
+
 ### 参考
 ------------------------------------------------------------------------------------------------
 
@@ -44,4 +49,5 @@ return float(frac(sin(dot(coord,vt))*(43758.5453123+time)));
 [The Book of Shaders-Generative designs](https://thebookofshaders.com/10/)
 
 ------------------------------------------------------------------------------------------------
+
 
